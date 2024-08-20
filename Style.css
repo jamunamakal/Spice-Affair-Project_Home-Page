@@ -1,0 +1,336 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: #16191e;
+    padding: 20px 0;
+    border-bottom: 2px solid #999966;
+}
+header .menu{
+    float: right;
+    margin-top: 10px;
+}
+header .menu li{
+    float: left;
+    padding-right: 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+header .menu li a{
+    color: #fff;
+}
+.menu li a:hover{
+    color: aqua;
+    text-decoration: underline #fff;
+}
+.banner{
+    background-image: url(../Image/Banner_Right\ Image.jpg);
+    background-image: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+}
+.banner::after{
+    position: absolute;
+    content: "";
+    background: linear-gradient(to bottom, #f0b7a11c 0%, #75220136 30%, #75220147 30%, #bf6e4e24 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner h1, p{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.banner h2{
+color: #959462;
+font-size: 40px;
+margin-bottom: 40px;
+font-family: Playfair Display;
+position: relative;
+z-index: 1;
+}
+.banner h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.banner p{
+    margin-bottom: 60px;
+}
+.banner a{
+    background-color: #ab3f1b;
+    padding: 15px 30px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.banner a:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.chef{
+        background-color: #ead6af;
+        background-image: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 70px 0;
+        text-align: left;        
+}
+.chef h3{
+    margin-bottom: 30px;
+    font-family: great vibes;
+    font-size: 40px;
+    color: #4314b9;
+}
+.chef p{
+    margin-bottom: 50px;
+    color: black;
+}
+.chef a{
+    background-color: #ab3f1b;
+    padding: 15px 30px;
+    color: #fff;
+}
+.chef .chef-img, .text1{
+    float: left;
+    padding-left: 250px;
+}
+.chef .text1{
+    margin-top: 200px;
+}
+.chef .text1 h3{
+    position: relative;
+}
+
+.glry{
+    padding: 80px 0;
+    text-align: center;
+}
+.glry h3{
+   text-align: center;
+   font-family: great vibes;
+   font-size: 36px;
+   color: #999966;
+}
+.glry h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+}
+.glry h2::after{
+    position: absolute;
+    content: "";
+    background-color: #d0d021;
+    width: 117px;
+    height: 3px;
+    top: 42px;
+    bottom: 0;
+    left: 46%;
+    right: 0;
+}
+ 
+ .glry .image{
+    margin: 10px 0;
+    position: relative;
+ }
+ .glry .image img{
+    width: 100%;
+ }
+ .glry .parent-image{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+} 
+.glry .parent-image{
+  margin-left: 100px;
+  margin-right: 100px;
+} 
+ .overlay {
+    position: absolute;
+    background-color: #000000a1;
+    top: 0;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    padding: 160px 0;
+    opacity: 0;
+  }
+  .glry .overlay:hover{
+    opacity: 1;
+  }
+  .glry .image svg:hover path{
+    fill:#999966;
+    }
+.client{
+    background-image: url(../Image/image-2.jpg);
+    background-image: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    text-align: center;
+
+}
+.client h2{
+    font-size: 42px;
+    line-height: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 63px;
+}
+.client h3{
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 300;
+    color: #999966;
+    padding-bottom: 15px;
+}
+.client-pic {
+    padding-bottom: 15px;
+  }
+  
+  .client-pic img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+.client p {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 35px;
+  }
+.quotation-sign i{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 29px;
+}
+.client h5 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .essentials {
+    background-color: #ead6af;
+    padding: 85px 0;
+  }
+  .element {
+    float: left;
+    width: 22%;
+    padding-right: 30px;
+    text-align: center;
+  }
+   .element h3{
+    font-size:  20px;
+    line-height: 28px;
+    color: #999966;
+    padding: 25px 0;
+  }
+  .element p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+  }
+  .top-footer{
+    background-color: #0b0d0f;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .top-footer .business-logo{
+    text-align: left;
+  }
+.business-logo p{
+        color: #fff;
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 15px;
+}
+.footer-text .button{
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #ab3f1b;
+  }
+  .footer-text h4{
+    color: #999966;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .icons{
+    display: inline-block;
+  }
+  
+  .icons li{
+    float: left;
+    padding: 0 15px;
+  }
+  .icons li a{
+    color: #fff;
+  }
+  .icons li a i{
+    font-size: 20px;
+  }
+  .top-footer .address{
+    text-align: left;
+  }
+  .address li{
+    padding-bottom: 8px;
+  }
+  .address .edit{
+    padding-bottom: 15px;
+  }
+  .address li a{
+    color: #fff;
+  }
+  .address li a:hover{
+    color: #999966;
+  }
+  .business-logo, .footer-text, .address{
+    float: left;
+    width: 33%;
+  }
+  .bottom-footer{
+    background-color: #16191e;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+  }
+  .bottom-footer .org{
+    color: #939362;
+  }
